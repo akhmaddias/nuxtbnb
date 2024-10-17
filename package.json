@@ -4,6 +4,8 @@
     "nuxt": "^3.13.2"
   },
   "scripts": {
-    "dev": "nuxt dev"
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start"
   }
 }
