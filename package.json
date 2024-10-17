@@ -1,0 +1,6 @@
+{
+  "name": "nuxt-bnb",
+  "dependencies": {
+    "nuxt": "^3.13.2"
+  }
+}
