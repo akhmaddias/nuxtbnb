@@ -10,6 +10,16 @@
 import homes from '~/data/homes'
 
 export default {
+  head() {
+    return {
+      title: "Home Page",
+      meta: [{
+        name: 'description',
+        content: 'This is a home page',
+        hid: 'description'
+      }]
+    }
+  },
   data() {
     return {
       homes: homes.slice(0, 3)

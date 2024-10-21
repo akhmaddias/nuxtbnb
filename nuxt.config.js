@@ -1,3 +1,6 @@
-export default {
-  components: true
-}
+export default defineNuxtConfig({
+  components: true,
+  head: {
+    titleTemplate: 'Mastering Nuxt %s'
+  }
+})
